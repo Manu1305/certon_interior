@@ -8,14 +8,12 @@ function Home() {
         <div className="hero-content-wrap">
           <div className="container w-container">
             <div className="hero-content-area">
-            
               <h1 className="hero-wrap-tit">
-                Creating Spaces Where 
-                Memories are Made
+                Creating Spaces Where Memories are Made
               </h1>
               <p className="hero-wrap-description">
-                Combining beauty with functionality for <br />
-                challenges into greater opportunities.
+                Combining beauty with functionality <br /> for spaces that work for you
+               
               </p>
               <Link to="contactus" className="button banner-button w-button">
                 Get Started

@@ -107,7 +107,12 @@ function Blog1() {
                                   <h2 className="blog-title">Island Kitchen</h2>
                                 </Link>
                                 <div className="blog-item-meta">
-                                  <p className="blog-date"> </p>
+                                  <p className="blog-date">
+                                    Sleek and functional island kitchens blend
+                                    style and efficiency, fostering creativity
+                                    and connection, making cooking an enjoyable,
+                                    communal experience{" "}
+                                  </p>
                                   {/* <Link
                                     style={{
                                       background: " rgb(244, 240, 236)",
@@ -158,11 +163,16 @@ function Blog1() {
                                   className="w-inline-block"
                                 >
                                   <h2 className="blog-title">
-                                    L Shaped Kitchen
+                                    L-Shape Kitchen
                                   </h2>
                                 </a>
                                 <div className="blog-item-meta">
-                                  <p className="blog-date"> </p>
+                                  <p className="blog-date">
+                                    Efficient L-shape kitchens optimize space,
+                                    enhancing functionality and aesthetics.
+                                    Modern designs feature sleek countertops,
+                                    ample storage, and seamless workflow{" "}
+                                  </p>
                                   {/* <Link
                                     style={{
                                       background: " rgb(244, 240, 236)",
@@ -214,7 +224,12 @@ function Blog1() {
                                   </h2>
                                 </Link>
                                 <div className="blog-item-meta">
-                                  <p className="blog-date"> </p>
+                                  <p className="blog-date">
+                                    Sleek and efficient straight kitchen design.
+                                    Streamlined layout, modern appliances, and
+                                    functional workspace create a seamless
+                                    culinary experience for any home
+                                  </p>
                                   {/* <Link
                                     style={{
                                       background: " rgb(244, 240, 236)",
@@ -269,7 +284,12 @@ function Blog1() {
                                   </h2>
                                 </Link>
                                 <div className="blog-item-meta">
-                                  <p className="blog-date"></p>
+                                  <p className="blog-date">
+                                    Sleek and efficient parallel kitchens
+                                    maximize space. Streamlined layout offers
+                                    seamless workflow, combining functionality
+                                    with modern design for ultimate convenience
+                                  </p>
                                   {/* <Link
                                     style={{
                                       background: " rgb(244, 240, 236)",
@@ -319,11 +339,16 @@ function Blog1() {
                                   className="w-inline-block"
                                 >
                                   <h2 className="blog-title">
-                                    U shaped Kitchen
+                                    U-shape Kitchen
                                   </h2>
                                 </Link>
                                 <div className="blog-item-meta">
-                                  <p className="blog-date"></p>
+                                  <p className="blog-date">
+                                    Efficient U-shape kitchens: sleek design,
+                                    ample storage. Seamless workflow, modern
+                                    appliances. Tailored for culinary
+                                    creativity, a chef's dream in reality
+                                  </p>
                                   {/* <Link
                                     style={{
                                       background: " rgb(244, 240, 236)",
