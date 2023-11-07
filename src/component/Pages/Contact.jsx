@@ -183,9 +183,9 @@ function Contact() {
                     </div>
                   </div>
                   <div className="error-message w-form-fail">
-                    <div className="error-message-title">
+                    {/* <div className="error-message-title">
                       Oops! Something went wrong while submitting the form.
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

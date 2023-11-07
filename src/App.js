@@ -22,10 +22,13 @@ import Blog3 from './component/Pages/Blogs/Blog3';
 import Blog4 from './component/Pages/Blogs/Blog4';
 import Blog5 from './component/Pages/Blogs/Blog5';
 import Blog6 from './component/Pages/Blogs/Blog6';
-
+import ScrollToTop from './component/Tools/ScrolltoTop';
 function App() {
   return (
     <Router>
+      <ScrollToTop>
+
+
     <div className="App">
       
       <Navbar/>
@@ -48,11 +51,11 @@ function App() {
           <Route path="/blog3" element={<Blog3 />} />
           <Route path="/blog4" element={<Blog4 />} />
           <Route path='/blog5' element={<Blog5/>} />
-          <Route path='/blog5' element={<Blog6 />} />
+          <Route path='/blog6' element={<Blog6 />} />
         </Routes>
     <Footer/>
     </div>
-
+      </ScrollToTop>
     </Router>
   );
 }

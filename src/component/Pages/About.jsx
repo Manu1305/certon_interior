@@ -98,7 +98,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="professionals-section about-page wf-section">
+        {/* <div className="professionals-section about-page wf-section">
           <div className="container w-container">
             <div className="section-title-wrap">
               <h2 className="section-title center-small-space">
@@ -319,7 +319,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="lets-talk-section wf-section">
           <div className="container w-container">
             <h2 className="section-title text-center">

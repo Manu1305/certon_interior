@@ -22,10 +22,10 @@ function Navbar() {
                 className="brand w-nav-brand w--current"
               >
                 <img
-                  src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61977e6d733ba184d23db8bc_interno.svg"
+                  src="/logoInterior.png"
                   loading="lazy"
                   alt="Doctorate Logo"
-                  height=""
+                  height="50px"
                 />
               </Link>
               <nav role="navigation" className="nav-menu w-nav-menu">

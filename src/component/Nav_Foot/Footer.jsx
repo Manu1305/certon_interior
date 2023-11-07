@@ -8,21 +8,20 @@ function Footer() {
         <div className="container w-container">
           <div className="w-layout-grid footer-grid-wrap">
             <div className="footer-widget-wrap">
-              <Link to="index.html" className="w-inline-block">
+              <Link to="/" className="w-inline-block">
                 <img
-                  src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61977e6d733ba184d23db8bc_interno.svg"
+                  src="logoInterior.png"
                   loading="lazy"
                   alt=""
                   className="footer-logo"
                 />
               </Link>
               <p className="footer-intro-content">
-                We are the leading architect and interior design firm in the
-                world.
+                We are the leading interior design firm in the India.
               </p>
               <div className="footer-social-wrap">
                 <Link
-                  to="#0"
+                  to="https://www.facebook.com/profile.php?id=61552339117422&mibextid=ZbWKwL"
                   className="footer-social-link first-child w-inline-block"
                 >
                   <img
@@ -63,11 +62,11 @@ function Footer() {
             <div className="footer-widget-wrap">
               <h2 className="footer-widget-title">Pages</h2>
               <div className="footer-menu-links-wrap">
-                <Link to="style-guide.html" className="footer-link">
+                <Link to="aboutus" className="footer-link">
                   About Us
                 </Link>
                 <Link to="services" className="footer-link">
-                  Services 
+                  Services
                 </Link>
                 {/* <Link to="licenses.html" className="footer-link">
                   Blog
@@ -83,7 +82,7 @@ function Footer() {
             <div className="footer-widget-wrap">
               <h2 className="footer-widget-title">Explore</h2>
               <div className="footer-menu-links-wrap">
-                <Link to="services.html" className="footer-link">
+                <Link to="our_projects" className="footer-link">
                   Our Projects
                 </Link>
                 {/* <Link to="blog.html" className="footer-link">
@@ -95,7 +94,7 @@ function Footer() {
                 <Link to="our-projects.html" className="footer-link">
                   Our Projects
                 </Link> */}
-                <Link to="contact-us.html" className="footer-link">
+                <Link to="contactus" className="footer-link">
                   Contact Us
                 </Link>
               </div>
@@ -105,7 +104,7 @@ function Footer() {
               <div className="footer-address-wrap">
                 <p className="footer-address">
                   Plot No: 128-P2, Ground Floor, EPIP Zone Whitefield Rd, near
-                  Gingeeer Hotel, Whitefield, EPIP Zone, Bengaluru, Karnataka
+                  Ginger Hotel, Whitefield, EPIP Zone, Bengaluru, Karnataka
                   560066
                 </p>
                 <Link to="mailto:contact@interno.com" className="footer-link">
@@ -120,9 +119,9 @@ function Footer() {
         </div>
         <div className="copyright-wrap">
           <div className="copyright-content">
-            Copyright © 2023 Certoninterior | All Right Reserved  
-            <Link to="https://www.victorflow.com/"> Certon</Link>
-            <Link to="https://webflow.com/">Technology</Link>
+            Copyright © 2023 Certoninterior | All Right Reserved
+            <Link to="https://certontech.com"> Certon</Link>
+            <Link to="https://certontech.com">Technology</Link>
           </div>
         </div>
       </div>

@@ -2407,7 +2407,7 @@ blockquote {
 }
 .hero-section {
   background-color: #cda274;
-  background-image: url(https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a60615af62665c8c5dded2_hero-area-image.jpg);
+  background-image: url(/insidehome/Bannerrr.jpg);
   background-position: 50%;
   background-size: cover;
   border-radius: 0 0 0 290px;
@@ -3091,6 +3091,15 @@ blockquote {
 .blog-wrap.home-page-blog {
   padding-top: 60px;
 }
+.bloggggggg{
+  width: 150%;
+}
+@media screen and (max-width: 679px) {
+  .bloggggggg{
+  width: 100%;
+}
+}
+
 .blog-image-link {
   position: relative;
 }
@@ -3670,7 +3679,7 @@ blockquote {
     width: 50%;
   }
   .hero-wrap-title {
-    font-size: 80px;
+    font-size: 58px;
     line-height: 1.2;
   }
   .service-section {

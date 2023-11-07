@@ -8,8 +8,10 @@ function Home() {
         <div className="hero-content-wrap">
           <div className="container w-container">
             <div className="hero-content-area">
-              <h1 className="hero-wrap-title">
-                Creating Spaces Where Memories are Made <br />
+            
+              <h1 className="hero-wrap-tit">
+                Creating Spaces Where 
+                Memories are Made
               </h1>
               <p className="hero-wrap-description">
                 Combining beauty with functionality for <br />
@@ -121,7 +123,7 @@ function Home() {
               </Link>
             </div>
             <img
-              src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b30656e76565ea79f29e5_intro-image.jpg"
+              src="insidehome/Image1.png"
               loading="lazy"
               alt="Intro Image"
               className="right-radius-image"
@@ -129,79 +131,310 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="testimonial-section">
+      <div className="blog-section">
         <div className="container w-container">
-          <div className="testimonial-content-wrap">
-            <h2 className="section-title text-center">
-              What People Think
-              <br /> About Interno
-            </h2>
-            <div className="w-layout-grid testimonial-grid">
-              <div className="testimonial-item">
-                <div className="testimonial-detail">
-                  <div className="testimonial-image-wrap">
-                    <img
-                      src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5d70ad9b5876274e17016_client-image-1.jpg"
-                      loading="lazy"
-                      alt="Testimonial Image"
-                      className="testimonial-client"
-                    />
-                    <div className="client-detail">
-                      <h3 className="client-name">Lisa Clairton</h3>
-                      <div className="client-location">New York, USA</div>
+          <div className="section-title-wrap">
+            <h2 className="section-title center-small-space">What we Design</h2>
+            {/* <p className="section-title-content">
+              Get updates about our latest trends and techniques used in
+              <br />
+              interior design project works.
+            </p> */}
+          </div>
+          <div className="blog-wrap home-page-blog">
+            <div className="w-dyn-list">
+              <div role="list" className="w-dyn-items w-row">
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <Link
+                        to="blog1"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="/insidehome/kitchen1.jpg"
+                          loading="lazy"
+                          alt="Blog Image"
+                          className="blog-listing-image"
+                          height={280}
+                        />
+                      </Link>
+                      {/* <Link
+                        to="blog1"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Kitchen Design</div>
+                      </Link> */}
+                    </div>
+                    <Link to="blog1" className="w-inline-block">
+                      <h2 className="blog-title">Kitchen designs</h2>
+                    </Link>
+                    <div className="blog-item-meta">
+                      <p className="blog-date"> </p>
+                      <Link
+                        style={{ background: " rgb(244, 240, 236)" }}
+                        to="/blog1"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </Link>
                     </div>
                   </div>
-                  <p className="testimonial-content">
-                    We selected Interno interior because of rigorous design
-                    background &amp; education.
-                  </p>
                 </div>
-              </div>
-              <div className="testimonial-item">
-                <div className="testimonial-detail">
-                  <div className="testimonial-image-wrap">
-                    <img
-                      src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5d70a4d252373e66ee1cb_client-image-3.jpg"
-                      loading="lazy"
-                      alt="Testimonial Image"
-                      className="testimonial-client"
-                    />
-                    <div className="client-detail">
-                      <h3 className="client-name">David Knight</h3>
-                      <div className="client-location">Sydney, Australia</div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <Link
+                        to="blog2"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="/insidehome/Living room 1.jpg"
+                          loading="lazy"
+                          alt="Blog Image"
+                          className="blog-listing-image"
+                        />
+                      </Link>
+                      {/* <Link
+                        to="/blog2"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Living Room</div>
+                      </Link> */}
+                    </div>
+                    <a
+                      href="post/how-to-choose-the-best-wall-art-decor-house.html"
+                      className="w-inline-block"
+                    >
+                      <h2 className="blog-title">Living Room</h2>
+                    </a>
+                    <div className="blog-item-meta">
+                      <p className="blog-date"> </p>
+                      <Link
+                        style={{ background: " rgb(244, 240, 236)" }}
+                        to="blog2"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </Link>
                     </div>
                   </div>
-                  <p className="testimonial-content">
-                    The team exceeded our expectations and emerged as leaders of
-                    our project’s.
-                  </p>
                 </div>
-              </div>
-              <div className="testimonial-item">
-                <div className="testimonial-detail">
-                  <div className="testimonial-image-wrap">
-                    <img
-                      src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5d70a990fade56fd885a7_client-image-2.jpg"
-                      loading="lazy"
-                      alt="Testimonial Image"
-                      className="testimonial-client"
-                    />
-                    <div className="client-detail">
-                      <h3 className="client-name">Lisa Clairton</h3>
-                      <div className="client-location">Paris, France</div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <Link
+                        to="/blog3"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="/insidehome/masterbedroom.jpg"
+                          loading="lazy"
+                          alt="Blog Image"
+                          className="blog-listing-image"
+                          height={280}
+                        />
+                      </Link>
+                      {/* <Link
+                        to="/blog3"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Master Bedroom</div>
+                      </Link> */}
+                    </div>
+                    <Link to="blog3" className="w-inline-block">
+                      <h2 className="blog-title">Master Bedroom</h2>
+                    </Link>
+                    <div className="blog-item-meta">
+                      <p className="blog-date"> </p>
+                      <Link
+                        style={{ background: " rgb(244, 240, 236)" }}
+                        to="/blog3"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </Link>
                     </div>
                   </div>
-                  <p className="testimonial-content">
-                    They balanced the architectural vision and the project
-                    realities beautifully.
-                  </p>
+                </div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <Link
+                        to="blog4"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="/insidehome/Kids bedroom 1.jpg"
+                          loading="lazy"
+                          alt="Blog Image"
+                          height={280}
+                          className="blog-listing-image"
+                        />
+                      </Link>
+                      {/* <Link
+                        to="/blog4"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Kids bedroom</div>
+                      </Link> */}
+                    </div>
+                    <Link to="blog4" className="w-inline-block">
+                      <h2 className="blog-title">Kids bedroom</h2>
+                    </Link>
+                    <div className="blog-item-meta">
+                      <p className="blog-date"></p>
+                      <Link
+                        style={{ background: " rgb(244, 240, 236)" }}
+                        to="/blog4"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <Link
+                        to="/blog5"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="/insidehome/diningarea.jpg"
+                          loading="lazy"
+                          alt="Blog Image"
+                          height={280}
+                          className="blog-listing-image"
+                        />
+                      </Link>
+                      {/* <Link
+                        to="/blog5"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Dining Area</div>
+                      </Link> */}
+                    </div>
+                    <Link to="blog5" className="w-inline-block">
+                      <h2 className="blog-title">Dining Area</h2>
+                    </Link>
+                    <div className="blog-item-meta">
+                      <p className="blog-date"></p>
+                      <Link
+                        style={{ background: " rgb(244, 240, 236)" }}
+                        to="blog5"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <Link
+                        to="blog6"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="/insidehome/balcony.jpg"
+                          loading="lazy"
+                          alt="Blog Image"
+                          className="blog-listing-image"
+                          height={280}
+                          width={300}
+                        />
+                      </Link>
+                      {/* <Link
+                        to="blog6"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Balcony</div>
+                      </Link> */}
+                    </div>
+                    <Link to="/blog6" className="w-inline-block">
+                      <h2 className="blog-title">Balcony</h2>
+                    </Link>
+                    <div className="blog-item-meta">
+                      <p className="blog-date"></p>
+                      <Link
+                        style={{ background: " rgb(244, 240, 236)" }}
+                        to="blog6"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="clients-section">
+      {/* <div className="clients-section">
         <div className="container w-container">
           <div className="w-layout-grid client-gird-wrap">
             <div
@@ -256,7 +489,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="project-listing-wrap home-page-projects">
         <div className="container w-container">
           <div className="section-title-wrap">
@@ -457,340 +690,111 @@ function Home() {
         <div className="container w-container">
           <div className="w-layout-grid counter-grid-wrap">
             <div className="counter-item">
-              <h3 className="count-number">12</h3>
+              <h3 className="count-number">4</h3>
               <p className="counter-title">Years Of Experiance</p>
             </div>
             <div className="counter-item">
-              <h3 className="count-number">5K</h3>
+              <h3 className="count-number">1K</h3>
               <p className="counter-title">Success Project</p>
             </div>
             <div className="counter-item">
-              <h3 className="count-number">1K</h3>
+              <h3 className="count-number">58+</h3>
               <p className="counter-title">Active Project</p>
             </div>
             <div className="counter-item counter-last-child">
-              <h3 className="count-number">4K</h3>
+              <h3 className="count-number">800</h3>
               <p className="counter-title">Happy Customers</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="blog-section">
+      <div className="testimonial-section">
         <div className="container w-container">
-          <div className="section-title-wrap">
-            <h2 className="section-title center-small-space">What we Design</h2>
-            {/* <p className="section-title-content">
-              Get updates about our latest trends and techniques used in
-              <br />
-              interior design project works.
-            </p> */}
-          </div>
-          <div className="blog-wrap home-page-blog">
-            <div className="w-dyn-list">
-              <div role="list" className="w-dyn-items w-row">
-                <div
-                  role="listitem"
-                  className="blog-collection-item w-dyn-item w-col w-col-4"
-                >
-                  <div
-                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
-                    className="blog-item"
-                  >
-                    <div className="blog-image-wrap">
-                      <Link
-                        to="blog1"
-                        className="blog-image-link w-inline-block"
-                      >
-                        <img
-                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bd92c0eccd5cd71645fc_blog-image-small-1.jpg"
-                          loading="lazy"
-                          alt="Blog Image"
-                          className="blog-listing-image"
-                        />
-                      </Link>
-                      <Link
-                        to='blog1'
-                        className="category-link blog-category w-inline-block"
-                      >
-                        <div className="blog-category">Kitchen Design</div>
-                      </Link>
-                    </div>
-                    <Link
-                      to='blog1'
-                      className="w-inline-block"
-                    >
-                      <h2 className="blog-title">
-                        Residential Interior Designer In New York, USA
-                      </h2>
-                    </Link>
-                    <div className="blog-item-meta">
-                      <p className="blog-date">November 23, 2021</p>
-                      <Link
-                        style={{ background: " rgb(244, 240, 236)" }}
-                      to='/blog1'
-                        className="blog-single-link w-inline-block"
-                      >
-                        <img
-                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
-                          loading="lazy"
-                          alt="Readmore Arrow"
-                        />
-                      </Link>
+          <div className="testimonial-content-wrap">
+            <h2 className="section-title text-center">
+              What People Think
+              <br /> About Us
+            </h2>
+            <div className="w-layout-grid testimonial-grid">
+              <div className="testimonial-item">
+                <div className="testimonial-detail">
+                  <div className="testimonial-image-wrap">
+                    <img
+                      width={80}
+                      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                      // src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5d70ad9b5876274e17016_client-image-1.jpg"
+                      loading="lazy"
+                      alt="Testimonial Image"
+                      className="testimonial-client"
+                    />
+                    <div className="client-detail">
+                      <h3 className="client-name">Sandhya N</h3>
+                      <div className="client-location">
+                        Whitefield,Bengaluru
+                      </div>
                     </div>
                   </div>
+                  <p className="testimonial-content">
+                    They are so amazing! The designs were just gorgeous! I was
+                    looking for something that was more than "okay". I wanted
+                    beautiful, and they delivered. My designer helped me design
+                    two awesome kids rooms, which are also somehow elevated and
+                    exciting at the same time - not everyone has the ability to
+                    do that! They are beautiful havens that my kids will love
+                    for years to come. Thank you!.
+                  </p>
                 </div>
-                <div
-                  role="listitem"
-                  className="blog-collection-item w-dyn-item w-col w-col-4"
-                >
-                  <div
-                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
-                    className="blog-item"
-                  >
-                    <div className="blog-image-wrap">
-                      <Link
-                        to='blog2'
-                        className="blog-image-link w-inline-block"
-                      >
-                        <img
-                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bdadb2eb07c93e396d9e_blog-image-small-2.jpg"
-                          loading="lazy"
-                          alt="Blog Image"
-                          className="blog-listing-image"
-                        />
-                      </Link>
-                      <Link to="/blog2"
-                        className="category-link blog-category w-inline-block"
-                      >
-                        <div className="blog-category">Living Room</div>
-                      </Link>
-                    </div>
-                    <a
-                      href="post/how-to-choose-the-best-wall-art-decor-house.html"
-                      className="w-inline-block"
-                    >
-                      <h2 className="blog-title">
-                        How To Choose The Best Wall Art &amp; Decor House?
-                      </h2>
-                    </a>
-                    <div className="blog-item-meta">
-                      <p className="blog-date">November 23, 2021</p>
-                      <Link
-                        style={{ background: " rgb(244, 240, 236)" }}
-                        to='blog2'
-                        className="blog-single-link w-inline-block"
-                      >
-                        <img
-                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
-                          loading="lazy"
-                          alt="Readmore Arrow"
-                        />
-                      </Link>
+              </div>
+              <div className="testimonial-item">
+                <div className="testimonial-detail">
+                  <div className="testimonial-image-wrap">
+                    <img
+                      width={80}
+                      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                      loading="lazy"
+                      alt="Testimonial Image"
+                      className="testimonial-client"
+                    />
+                    <div className="client-detail">
+                      <h3 className="client-name">Somchara reddy</h3>
+                      <div className="client-location">Verthur, Bengaluru</div>
                     </div>
                   </div>
+                  <p className="testimonial-content">
+                    We contacted Certon for the interiors of our 3bhk..We liked
+                    the initial response from the Sales team and their
+                    spontaneity.Where, every other studio, was charging us to
+                    even listen to our requirements, Certon, not only listened
+                    to us patiently but also, helped us putting our ideas
+                    together and refining it to receive an accurate
+                    estimate.This approach made it easy for us to have a clear
+                    idea of budget and motivated us to work with them.
+                  </p>
                 </div>
-                <div
-                  role="listitem"
-                  className="blog-collection-item w-dyn-item w-col w-col-4"
-                >
-                  <div
-                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
-                    className="blog-item"
-                  >
-                    <div className="blog-image-wrap">
-                      <Link
-                        to='/blog3'
-                        className="blog-image-link w-inline-block"
-                      >
-                        <img
-                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bdc5798f2d3af13d1966_blog-image-small-3.jpg"
-                          loading="lazy"
-                          alt="Blog Image"
-                          className="blog-listing-image"
-                        />
-                      </Link>
-                      <Link
-                        to='/blog3'
-                        className="category-link blog-category w-inline-block"
-                      >
-                        <div className="blog-category">Minimalist Interior</div>
-                      </Link>
-                    </div>
-                    <Link
-                      to='blog3'
-                      className="w-inline-block"
-                    >
-                      <h2 className="blog-title">
-                        Tips To Increase The Interior Value Of Your House
-                      </h2>
-                    </Link>
-                    <div className="blog-item-meta">
-                      <p className="blog-date">November 23, 2021</p>
-                      <Link
-                        style={{ background: " rgb(244, 240, 236)" }}
-                       to='/blog2'
-                        className="blog-single-link w-inline-block"
-                      >
-                        <img
-                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
-                          loading="lazy"
-                          alt="Readmore Arrow"
-                        />
-                      </Link>
+              </div>
+              <div className="testimonial-item">
+                <div className="testimonial-detail">
+                  <div className="testimonial-image-wrap">
+                    <img
+                      width={80}
+                      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                      loading="lazy"
+                      alt="Testimonial Image"
+                      className="testimonial-client"
+                    />
+                    <div className="client-detail">
+                      <h3 className="client-name">Nilesh Kapoor</h3>
+                      <div className="client-location">
+                        Electronic city, Bengaluru
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  role="listitem"
-                  className="blog-collection-item w-dyn-item w-col w-col-4"
-                >
-                  <div
-                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
-                    className="blog-item"
-                  >
-                    <div className="blog-image-wrap">
-                      <a
-                        href="post/best-solution-for-any-office-business-interior.html"
-                        className="blog-image-link w-inline-block"
-                      >
-                        <img
-                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bddb4a0a5378ab7d1199_blog-image-small-4.jpg"
-                          loading="lazy"
-                          alt="Blog Image"
-                          className="blog-listing-image"
-                        />
-                      </a>
-                      <a
-                        href="category/kitchen-design.html"
-                        className="category-link blog-category w-inline-block"
-                      >
-                        <div className="blog-category">Kitchen Design</div>
-                      </a>
-                    </div>
-                    <a
-                      href="post/best-solution-for-any-office-business-interior.html"
-                      className="w-inline-block"
-                    >
-                      <h2 className="blog-title">
-                        Best Solution For Any Office &amp; Business Interior
-                      </h2>
-                    </a>
-                    <div className="blog-item-meta">
-                      <p className="blog-date">November 23, 2021</p>
-                      <a
-                        style={{ background: " rgb(244, 240, 236)" }}
-                        href="post/best-solution-for-any-office-business-interior.html"
-                        className="blog-single-link w-inline-block"
-                      >
-                        <img
-                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
-                          loading="lazy"
-                          alt="Readmore Arrow"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  role="listitem"
-                  className="blog-collection-item w-dyn-item w-col w-col-4"
-                >
-                  <div
-                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
-                    className="blog-item"
-                  >
-                    <div className="blog-image-wrap">
-                      <a
-                        href="post/get-solution-for-building-construction-work-.html"
-                        className="blog-image-link w-inline-block"
-                      >
-                        <img
-                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bdf7191af40ae1c06fca_blog-image-small-5.jpg"
-                          loading="lazy"
-                          alt="Blog Image"
-                          className="blog-listing-image"
-                        />
-                      </a>
-                      <Link to="/blog2"
-                        className="category-link blog-category w-inline-block"
-                      >
-                        <div className="blog-category">Living Room</div>
-                      </Link>
-                    </div>
-                    <a
-                      href="post/get-solution-for-building-construction-work-.html"
-                      className="w-inline-block"
-                    >
-                      <h2 className="blog-title">
-                        Get Solution For Building Construction Work{" "}
-                      </h2>
-                    </a>
-                    <div className="blog-item-meta">
-                      <p className="blog-date">November 23, 2021</p>
-                      <a
-                        style={{ background: " rgb(244, 240, 236)" }}
-                        href="post/get-solution-for-building-construction-work-.html"
-                        className="blog-single-link w-inline-block"
-                      >
-                        <img
-                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
-                          loading="lazy"
-                          alt="Readmore Arrow"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  role="listitem"
-                  className="blog-collection-item w-dyn-item w-col w-col-4"
-                >
-                  <div
-                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
-                    className="blog-item"
-                  >
-                    <div className="blog-image-wrap">
-                      <a
-                        href="post/attain-the-best-finish-for-the-kitchen-cabinets.html"
-                        className="blog-image-link w-inline-block"
-                      >
-                        <img
-                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1be0da80aaec1a0c172c4_blog-image-small-6.jpg"
-                          loading="lazy"
-                          alt="Blog Image"
-                          className="blog-listing-image"
-                        />
-                      </a>
-                      <a
-                        href="category/minimalist-interior.html"
-                        className="category-link blog-category w-inline-block"
-                      >
-                        <div className="blog-category">Minimalist Interior</div>
-                      </a>
-                    </div>
-                    <a
-                      href="post/attain-the-best-finish-for-the-kitchen-cabinets.html"
-                      className="w-inline-block"
-                    >
-                      <h2 className="blog-title">
-                        Attain The Best Finish For The Kitchen Cabinets
-                      </h2>
-                    </a>
-                    <div className="blog-item-meta">
-                      <p className="blog-date">November 23, 2021</p>
-                      <a
-                        style={{ background: " rgb(244, 240, 236)" }}
-                        href="post/attain-the-best-finish-for-the-kitchen-cabinets.html"
-                        className="blog-single-link w-inline-block"
-                      >
-                        <img
-                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
-                          loading="lazy"
-                          alt="Readmore Arrow"
-                        />
-                      </a>
-                    </div>
-                  </div>
+                  <p className="testimonial-content">
+                    One of the best interior design firms. Truly creative and
+                    professional in work. On time services with perfection. And
+                    the best part is that they give you affordable
+                    prices for the work.
+                  </p>
                 </div>
               </div>
             </div>
@@ -800,7 +804,9 @@ function Home() {
       <div className="call-to-action-section">
         <div className="container w-container">
           <div className="call-to-action-wrap">
-            <h2 className="call-to-action-title">Wanna join the interno?</h2>
+            <h2 className="call-to-action-title">
+              Wanna join Certon interior?
+            </h2>
             <p className="call-to-action-content">
               Contact Us &amp; Get a Free Consultation
             </p>
