@@ -12,8 +12,8 @@ function Home() {
                 Creating Spaces Where Memories are Made
               </h1>
               <p className="hero-wrap-description">
-                Combining beauty with functionality <br /> for spaces that work for you
-               
+                Combining beauty with functionality <br /> for spaces that work
+                for you
               </p>
               <Link to="contactus" className="button banner-button w-button">
                 Get Started
@@ -506,35 +506,35 @@ function Home() {
                 <div role="listitem" className="w-dyn-item w-col w-col-6">
                   <div className="project-item">
                     <Link
-                      to="project1"
+                      to="our_projects"
                       className="project-link-block w-inline-block"
                     >
                       <img
-                        src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dcfbe7008298f5887664_project-image-1.jpg"
+                        src="/insidehome/COmpltedProjects/completed1.jpg"
                         loading="lazy"
                         alt="Project Image"
                         sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, (max-width: 1279px) 46vw, 590px"
-                        srcset="https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dcfbe7008298f5887664_project-image-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dcfbe7008298f5887664_project-image-1.jpg 580w"
+                        srcset="/insidehome/COmpltedProjects/completed1.jpg 500w, /insidehome/COmpltedProjects/completed1.jpg 580w"
                         className="project-listing-image"
                       />
                     </Link>
                     <div className="project-listing-details">
                       <div className="project-title-wrap">
                         <Link
-                          href="project1"
+                          href="our_projects"
                           className="project-title-link w-inline-block"
                         >
                           <h2 className="project-title">
-                            Winery Dry Creek Building
+                            Master Bedroom
                           </h2>
                         </Link>
-                        <Link to="/project1" className="project-category-link">
-                          Art Modern
+                        <Link to="/our_projects" className="project-category-link">
+                          
                         </Link>
                       </div>
                       <div className="project-readmore">
                         <Link
-                          to="project1"
+                          to="our_projects"
                           className="project-single-link w-inline-block"
                         >
                           <img
@@ -550,7 +550,7 @@ function Home() {
                 <div role="listitem" className="w-dyn-item w-col w-col-6">
                   <div className="project-item">
                     <Link
-                      to="project2"
+                      to="our_projects"
                       className="project-link-block w-inline-block"
                     >
                       <img
@@ -558,27 +558,27 @@ function Home() {
                         loading="lazy"
                         alt="Project Image"
                         sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, (max-width: 1279px) 46vw, 590px"
-                        srcset="https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd05b4f9a181178c70b9_project-image-2-p-500.jpeg 500w, https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd05b4f9a181178c70b9_project-image-2.jpg 580w"
+                        srcset="/insidehome/COmpltedProjects/completed2.jpg 500w, /insidehome/COmpltedProjects/completed2.jpg 580w"
                         className="project-listing-image"
                       />
                     </Link>
                     <div className="project-listing-details">
                       <div className="project-title-wrap">
                         <Link
-                          to="/project2"
+                          to="/our_projects"
                           className="project-title-link w-inline-block"
                         >
                           <h2 className="project-title">
-                            Creative Workplace Design
+                          Living Area TV unit
                           </h2>
                         </Link>
-                        <Link to="project2" className="project-category-link">
-                          Minimalist
+                        <Link to="our_projects" className="project-category-link">
+                          
                         </Link>
                       </div>
                       <div className="project-readmore">
                         <Link
-                          to="project2"
+                          to="our_projects"
                           className="project-single-link w-inline-block"
                         >
                           <img
@@ -594,7 +594,7 @@ function Home() {
                 <div role="listitem" className="w-dyn-item w-col w-col-6">
                   <div className="project-item">
                     <Link
-                      to="/project3"
+                      to="/our_projects"
                       className="project-link-block w-inline-block"
                     >
                       <img
@@ -602,27 +602,27 @@ function Home() {
                         loading="lazy"
                         alt="Project Image"
                         sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, (max-width: 1279px) 46vw, 590px"
-                        srcset="https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd10e8f59f8f8287319f_project-image-3-p-500.jpeg 500w, https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd10e8f59f8f8287319f_project-image-3.jpg 580w"
+                        srcset="/insidehome/COmpltedProjects/completed3.jpg 500w, /insidehome/COmpltedProjects/completed3.jpg 580w"
                         className="project-listing-image"
                       />
                     </Link>
                     <div className="project-listing-details">
                       <div className="project-title-wrap">
                         <Link
-                          to="/project3"
+                          to="/our_projects"
                           className="project-title-link w-inline-block"
                         >
                           <h2 className="project-title">
-                            Bedroom Interior Pot Work
+                            Kitchen
                           </h2>
                         </Link>
-                        <Link to="project3" className="project-category-link">
-                          Modern
+                        <Link to="our_projects" className="project-category-link">
+                          
                         </Link>
                       </div>
                       <div className="project-readmore">
                         <Link
-                          to="project3"
+                          to="our_projects"
                           className="project-single-link w-inline-block"
                         >
                           <img
@@ -638,7 +638,7 @@ function Home() {
                 <div role="listitem" className="w-dyn-item w-col w-col-6">
                   <div className="project-item">
                     <Link
-                      to="/project4"
+                      to="/our_projects"
                       className="project-link-block w-inline-block"
                     >
                       <img
@@ -646,27 +646,27 @@ function Home() {
                         loading="lazy"
                         alt="Project Image"
                         sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, (max-width: 1279px) 46vw, 590px"
-                        srcset="https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd203305d3906782aa29_project-image-4-p-500.jpeg 500w, https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd203305d3906782aa29_project-image-4.jpg 580w"
+                        srcset="/public/insidehome/COmpltedProjects/complted4.jpg 500w, /insidehome/COmpltedProjects/complted4.jpg 580w"
                         className="project-listing-image"
                       />
                     </Link>
                     <div className="project-listing-details">
                       <div className="project-title-wrap">
                         <Link
-                          to="/project4"
+                          to="/our_projects"
                           className="project-title-link w-inline-block"
                         >
                           <h2 className="project-title">
-                            Light Ambience Sepia Design
+                            Guest Bedroom
                           </h2>
                         </Link>
-                        <Link to="/project4" className="project-category-link">
+                        {/* <Link to="/our_projects" className="project-category-link">
                           Scandinavian
-                        </Link>
+                        </Link> */}
                       </div>
                       <div className="project-readmore">
                         <Link
-                          to="/project4"
+                          to="/our_projects"
                           className="project-single-link w-inline-block"
                         >
                           <img
@@ -692,15 +692,15 @@ function Home() {
               <p className="counter-title">Years Of Experiance</p>
             </div>
             <div className="counter-item">
-              <h3 className="count-number">1K</h3>
+              <h3 className="count-number">150</h3>
               <p className="counter-title">Success Project</p>
             </div>
             <div className="counter-item">
-              <h3 className="count-number">58+</h3>
+              <h3 className="count-number">12</h3>
               <p className="counter-title">Active Project</p>
             </div>
             <div className="counter-item counter-last-child">
-              <h3 className="count-number">800</h3>
+              <h3 className="count-number">102</h3>
               <p className="counter-title">Happy Customers</p>
             </div>
           </div>

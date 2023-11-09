@@ -102,7 +102,7 @@ function About() {
           <div className="container w-container">
             <div className="section-title-wrap">
               <h2 className="section-title center-small-space">
-                Interno Professional
+                certoninteriors Professional
               </h2>
               <p className="section-title-content">
                 Talented team behind our success in all our projects. Dream your

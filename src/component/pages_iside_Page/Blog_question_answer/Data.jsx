@@ -2,7 +2,7 @@ const data = [
   {
     question: "Hiring an interior designer for work?",
     answer:
-      "All designers work differently. At Interno Interiors, first a short questionnaire and follow-up phone  conversation will help us evaluate your project, and    if we may be of help.",
+      "All designers work differently. At certoninteriors Interiors, first a short questionnaire and follow-up phone  conversation will help us evaluate your project, and    if we may be of help.",
   },
   {
     question: "How do you charge per square feet?",
@@ -22,7 +22,7 @@ const data = [
   {
     question: "What cities do you work in?",
     answer:
-      "Interno Interiors works primarily in Los Angeles and Hawaii with select engagements on the east coast.",
+      "certoninteriors Interiors works primarily in Los Angeles and Hawaii with select engagements on the east coast.",
   },
 ];
 
