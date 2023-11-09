@@ -75,10 +75,10 @@ function Navbar() {
                     >
                       Pricing Plan
                     </Link> */}
-                    <a href="blog"
+                    {/* <a href="blog"
                      className="dropdown-link w-dropdown-link">
                       Blog
-                    </a>
+                    </a> */}
                     <Link
                       to="faq_page"
                       className="dropdown-link w-dropdown-link"
