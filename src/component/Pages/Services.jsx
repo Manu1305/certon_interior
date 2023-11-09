@@ -259,7 +259,7 @@ function Services() {
       <div className="call-to-action-section wf-section">
         <div className="container w-container">
           <div className="call-to-action-wrap">
-            <h2 className="call-to-action-title">Wanna join with Certoninterior?</h2>
+            <h2 className="call-to-action-title">Wanna join with Certon interior?</h2>
             <p className="call-to-action-content">
               Contact Us &amp; Get a Free Consultation
             </p>
