@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <div className="header-section">
+      <div className="header-section" style={{height:'85px'}}>
         <div className="top-bar-header-area">
           <div
             data-collapse="medium"
