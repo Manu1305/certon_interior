@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -46,7 +47,7 @@ function Contact() {
                       alt="Contact Icon"
                     />
                   </div>
-                  <a href="tel:+1(378)400-1234" className="contact-link">
+                  <a href="tel:+91 9538111038" className="contact-link">
                     (+91) 9538111038
                   </a>
                 </div>
@@ -63,13 +64,16 @@ function Contact() {
                   </a>
                 </div>
                 <div className="contact-social-wrap">
-                  <a href="#" className="contact-social-link w-inline-block">
+                  <Link
+                    to="https://www.facebook.com/profile.php?id=61552339117422&mibextid=ZbWKwL"
+                    className="contact-social-link w-inline-block"
+                  >
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
                       loading="lazy"
                       alt="Social Icon"
                     />
-                  </a>
+                  </Link>
                   <a href="#" className="contact-social-link w-inline-block">
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"

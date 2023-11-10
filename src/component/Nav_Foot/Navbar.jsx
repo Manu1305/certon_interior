@@ -49,7 +49,8 @@ function Navbar() {
                   className="dropdown w-dropdown"
                 >
                   <div className="dropdown-toggle w-dropdown-toggle">
-                    <div className="dropdown-nav-link">Pages</div>
+                    
+                    <div className="dropdown-nav-link">Our Project</div>
                   </div>
                   <nav className="dropdown-list w-dropdown-list">
                     <a
