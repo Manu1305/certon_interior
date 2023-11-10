@@ -14,6 +14,7 @@ function Footer() {
                   loading="lazy"
                   alt=""
                   className="footer-logo"
+                  height={120}
                 />
               </Link>
               <p className="footer-intro-content">

@@ -8,7 +8,7 @@ function ContactUsSmall() {
   return (
     <div>
       <form className={styles.mainform}>
-        <h1 className={styles.title}>Talk to Us</h1>
+        <h1 className={styles.title}>Get Quotes</h1>
         <div>
           <input type="text" placeholder="Name.." className={styles.name} />
         </div>
