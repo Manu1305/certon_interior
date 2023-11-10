@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ContactUsSmall from "../pages_iside_Page/takstoUs/ContactUsSmall";
+import Jello from "react-reveal/Jello";
+import Zoom from "react-reveal/Zoom";
 
 function Home() {
   return (
@@ -7,18 +10,31 @@ function Home() {
       <div className="hero-section">
         <div className="hero-content-wrap">
           <div className="container w-container">
-            <div className="hero-content-area">
-              <h1 className="hero-wrap-tit">
-                Creating Spaces Where Memories are Made
-              </h1>
-              <p className="hero-wrap-description">
-                Combining beauty with functionality <br /> for spaces that work
-                for you
-              </p>
-              <Link to="contactus" className="button banner-button w-button">
-                Get Started
-              </Link>
+            <div style={{display:'flex', flexDirection:'row'}}>
+              <div className="hero-content-area">
+                <h1 className="hero-wrap-tit">
+                  Creating Spaces Where Memories are Made
+                </h1>
+                <p className="hero-wrap-description">
+                  Combining beauty with functionality <br /> for spaces that
+                  work for you
+                </p>
+                <Link to="contactus" className="button banner-button w-button">
+                  Get Started
+                </Link>
+              </div>
+             
+              <div className="smallSubmitform" >
+                 <Zoom>
+                <ContactUsSmall/>
+
+                 </Zoom>
+              </div>
+
+              
             </div>
+
+            <div></div>
           </div>
         </div>
       </div>
@@ -506,7 +522,7 @@ function Home() {
                 <div role="listitem" className="w-dyn-item w-col w-col-6">
                   <div className="project-item">
                     <Link
-                      to="our_projects"
+                      // to="our_projects"
                       className="project-link-block w-inline-block"
                     >
                       <img
@@ -521,18 +537,17 @@ function Home() {
                     <div className="project-listing-details">
                       <div className="project-title-wrap">
                         <Link
-                          href="our_projects"
+                          // href="our_projects"
                           className="project-title-link w-inline-block"
                         >
-                          <h2 className="project-title">
-                            Master Bedroom
-                          </h2>
+                          <h2 className="project-title">Master Bedroom</h2>
                         </Link>
-                        <Link to="/our_projects" className="project-category-link">
-                          
-                        </Link>
+                        <Link
+                          // to="/our_projects"
+                          className="project-category-link"
+                        ></Link>
                       </div>
-                      <div className="project-readmore">
+                      {/* <div className="project-readmore">
                         <Link
                           to="our_projects"
                           className="project-single-link w-inline-block"
@@ -543,14 +558,14 @@ function Home() {
                             alt="Readmore Arrow"
                           />
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
                 <div role="listitem" className="w-dyn-item w-col w-col-6">
                   <div className="project-item">
                     <Link
-                      to="our_projects"
+                      // to="our_projects"
                       className="project-link-block w-inline-block"
                     >
                       <img
@@ -568,15 +583,14 @@ function Home() {
                           to="/our_projects"
                           className="project-title-link w-inline-block"
                         >
-                          <h2 className="project-title">
-                          Living Area TV unit
-                          </h2>
+                          <h2 className="project-title">Living Area TV unit</h2>
                         </Link>
-                        <Link to="our_projects" className="project-category-link">
-                          
-                        </Link>
+                        <Link
+                          to="our_projects"
+                          className="project-category-link"
+                        ></Link>
                       </div>
-                      <div className="project-readmore">
+                      {/* <div className="project-readmore">
                         <Link
                           to="our_projects"
                           className="project-single-link w-inline-block"
@@ -587,7 +601,7 @@ function Home() {
                             alt="Readmore Arrow"
                           />
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -609,18 +623,17 @@ function Home() {
                     <div className="project-listing-details">
                       <div className="project-title-wrap">
                         <Link
-                          to="/our_projects"
+                          // to="/our_projects"
                           className="project-title-link w-inline-block"
                         >
-                          <h2 className="project-title">
-                            Kitchen
-                          </h2>
+                          <h2 className="project-title">Kitchen</h2>
                         </Link>
-                        <Link to="our_projects" className="project-category-link">
-                          
-                        </Link>
+                        <Link
+                          to="our_projects"
+                          className="project-category-link"
+                        ></Link>
                       </div>
-                      <div className="project-readmore">
+                      {/* <div className="project-readmore">
                         <Link
                           to="our_projects"
                           className="project-single-link w-inline-block"
@@ -631,14 +644,14 @@ function Home() {
                             alt="Readmore Arrow"
                           />
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
                 <div role="listitem" className="w-dyn-item w-col w-col-6">
                   <div className="project-item">
                     <Link
-                      to="/our_projects"
+                      // to="/our_projects"
                       className="project-link-block w-inline-block"
                     >
                       <img
@@ -656,15 +669,13 @@ function Home() {
                           to="/our_projects"
                           className="project-title-link w-inline-block"
                         >
-                          <h2 className="project-title">
-                            Guest Bedroom
-                          </h2>
+                          <h2 className="project-title">Guest Bedroom</h2>
                         </Link>
                         {/* <Link to="/our_projects" className="project-category-link">
                           Scandinavian
                         </Link> */}
                       </div>
-                      <div className="project-readmore">
+                      {/* <div className="project-readmore">
                         <Link
                           to="/our_projects"
                           className="project-single-link w-inline-block"
@@ -675,7 +686,7 @@ function Home() {
                             alt="Readmore Arrow"
                           />
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -689,7 +700,7 @@ function Home() {
           <div className="w-layout-grid counter-grid-wrap">
             <div className="counter-item">
               <h3 className="count-number">4</h3>
-              <p className="counter-title">Years Of Experiance</p>
+              <p className="counter-title">Years Of Experinece</p>
             </div>
             <div className="counter-item">
               <h3 className="count-number">150</h3>

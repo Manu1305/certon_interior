@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from "react";
+import { Link } from "react-router-dom";
 function Blog4() {
   return (
     <div>
@@ -11,93 +11,30 @@ function Blog4() {
           <div className="single-content-wrap">
             <div className="w-layout-grid blog-single-grid">
               <div className="blog-single-content-wrap">
-                <h1 className="blog-single-title">
-                  Best Solution For Any Office &amp; Business Interior
-                </h1>
+                <h1 className="blog-single-title">Kids Bedroom</h1>
                 <img
-                  src="../../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bde65ff09c846e2fac58_blog-image-large-4.jpg"
+                  src="/insidehome/Kids bedroom 1.jpg"
                   loading="lazy"
                   alt="Blog Single Image"
                   className="blog-single-image"
                 />
                 <div className="blog-meta-details">
-                  <div className="blog-meta-date">November 23, 2021</div>
-                  <div className="blog-meta-category">Kitchen Design</div>
+                  <div className="blog-meta-date"></div>
+                  <div className="blog-meta-category"></div>
                 </div>
                 <div className="w-richtext">
                   <p>
-                    Uniquely matrix economically sound value through cooperative
-                    technology. Competently parallel task fully researched data
-                    and enterprise process improvements. Collaboratively
-                    expedite quality manufactured products via client-focused
-                    results quickly communicate enabled technology and turnkey
-                    leadership skills. Uniquely enable accurate supply chains
-                    rather than friction technology.
+                    Transform your child's bedroom into a whimsical wonderland
+                    where dreams take flight. Our kids' bedrooms blend vibrant
+                    colors, playful themes, and functional designs, fostering
+                    creativity and comfort. From cozy beds to imaginative
+                    storage solutions, every element is crafted to inspire,
+                    ensuring a space where laughter, learning, and
+                    imagination flourish.
                   </p>
-                  <h2>
-                    The perfect Interior for all
-                    <br />
-                  </h2>
-                  <p>
-                    Appropriately empower dynamic<strong> leadership</strong>{" "}
-                    <strong>skills </strong>after business portals. Globally my
-                    cardinate interactive supply chains with distinctive
-                    <a href="https://www.webflow.com/">
-                      {" "}
-                      quality vectors global sources{" "}
-                    </a>
-                    services. Uniquely matrix economically sound value through
-                    cooperative technology. Competently parallel task fully
-                    researched data and{" "}
-                    <em>enterprise process improvements.</em>
-                  </p>
-                  <ul role="list">
-                    <li>
-                      Health Care is committed to the pillars of academic health
-                      care
-                    </li>
-                    <li>
-                      We will strengthen local health care and improve delivery
-                      system
-                    </li>
-                    <li>
-                      {" "}
-                      Providing optimal multidisciplinary health care and
-                      developing.
-                    </li>
-                  </ul>
-                  <blockquote>
-                    “Crowdsource term sheet freemium beta stealth responsive web
-                    design niche market rock star channels.”
-                  </blockquote>
-                  <h6>Feel Your Home With Best Interior</h6>
-                  <p>
-                    Collaboratively administrate empowered markets via
-                    plug-and-play networks. Dynamically procrastinate B2C users
-                    after installed base benefits. Dramatically visualize
-                    customer directed convergence without revolutionary ROI.
-                  </p>
-                  <ol start="" role="list">
-                    <li>
-                      Your wellness goals and the areas of preference, then
-                      unwind with a customized.
-                    </li>
-                    <li>
-                      Discover better health &amp; wellness by using our
-                      beautician ratings &amp; reviews to make your choice.
-                    </li>
-                    <li>
-                      Professionals team is trained to provide you with the care
-                      and support you need during this difficult time.
-                    </li>
-                    <li>
-                      We will fax the requested records directly to the
-                      Qualified Beautician.
-                    </li>
-                  </ol>
                 </div>
               </div>
-              <div className="blog-single-sidebar">
+              {/* <div className="blog-single-sidebar">
                 <div className="sidebar-widget first-widget">
                   <h2 className="widget-title">Recent Blogs</h2>
                   <div className="w-dyn-list">
@@ -114,7 +51,9 @@ function Blog4() {
                             Residential Interior Designer In New York, USA
                           </h3>
                         </a>
-                        <div className="sidebar-blog-date">December 1, 2021</div>
+                        <div className="sidebar-blog-date">
+                          December 1, 2021
+                        </div>
                       </div>
                       <div
                         role="listitem"
@@ -128,7 +67,9 @@ function Blog4() {
                             How To Choose The Best Wall Art &amp; Decor House?
                           </h3>
                         </a>
-                        <div className="sidebar-blog-date">December 1, 2021</div>
+                        <div className="sidebar-blog-date">
+                          December 1, 2021
+                        </div>
                       </div>
                       <div
                         role="listitem"
@@ -136,13 +77,16 @@ function Blog4() {
                       >
                         <a
                           href="tips-to-increase-the-interior-value-of-your-house.html"
-                          className="w-inline-block"
+                          aria-current="page"
+                          className="w-inline-block w--current"
                         >
                           <h3 className="sidebar-blog-title">
                             Tips To Increase The Interior Value Of Your House
                           </h3>
                         </a>
-                        <div className="sidebar-blog-date">December 1, 2021</div>
+                        <div className="sidebar-blog-date">
+                          December 1, 2021
+                        </div>
                       </div>
                       <div
                         role="listitem"
@@ -150,14 +94,15 @@ function Blog4() {
                       >
                         <a
                           href="best-solution-for-any-office-business-interior.html"
-                          aria-current="page"
-                          className="w-inline-block w--current"
+                          className="w-inline-block"
                         >
                           <h3 className="sidebar-blog-title">
                             Best Solution For Any Office &amp; Business Interior
                           </h3>
                         </a>
-                        <div className="sidebar-blog-date">December 1, 2021</div>
+                        <div className="sidebar-blog-date">
+                          December 1, 2021
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -171,7 +116,9 @@ function Blog4() {
                           href="../category/kitchen-design.html"
                           className="w-inline-block"
                         >
-                          <h3 className="sidebar-category-title">Kitchen Design</h3>
+                          <h3 className="sidebar-category-title">
+                            Kitchen Design
+                          </h3>
                         </a>
                       </div>
                       <div role="listitem" className="w-dyn-item">
@@ -179,7 +126,9 @@ function Blog4() {
                           href="../category/living-room.html"
                           className="w-inline-block"
                         >
-                          <h3 className="sidebar-category-title">Living Room</h3>
+                          <h3 className="sidebar-category-title">
+                            Living Room
+                          </h3>
                         </a>
                       </div>
                       <div role="listitem" className="w-dyn-item">
@@ -195,8 +144,229 @@ function Blog4() {
                     </div>
                   </div>
                 </div>
+              </div> */}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="blog-wrap home-page-blog ">
+        <div className="w-dyn-list">
+          <div role="list" className="w-dyn-items w-row">
+            <div
+              role="listitem"
+              className="blog-collection-item w-dyn-item w-col w-col-4"
+            >
+              <div
+                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                className="blog-item"
+              >
+                <div className="blog-image-wrap">
+                  <Link
+                    // to="blog1"
+                    className="blog-image-link w-inline-block"
+                  >
+                    <img
+                      src="/insidehome/kids_room_files/Kids bedroom 4.jpg"
+                      loading="lazy"
+                      alt="Blog Image"
+                      className="blog-listing-image"
+                      height={280}
+                      width={350}
+                    />
+                  </Link>
+                  {/* <Link
+                        to="blog1"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Kitchen Design</div>
+                      </Link> */}
+                </div>
+                <Link to="blog1" className="w-inline-block">
+                  {/* <h2 className="blog-title">Island Kitchen</h2> */}
+                </Link>
+                <div className="blog-item-meta">
+                  <p className="blog-date"> </p>
+                  {/* <Link
+                                    style={{
+                                      background: " rgb(244, 240, 236)",
+                                    }}
+                                    to="/blog1"
+                                    className="blog-single-link w-inline-block"
+                                  >
+                                    <img
+                                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                                      loading="lazy"
+                                      alt="Readmore Arrow"
+                                    />
+                                  </Link> */}
+                </div>
               </div>
             </div>
+            <div
+              role="listitem"
+              className="blog-collection-item w-dyn-item w-col w-col-4"
+            >
+              <div
+                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                className="blog-item"
+              >
+                <div className="blog-image-wrap">
+                  <Link
+                    // to="blog2"
+                    className="blog-image-link w-inline-block"
+                  >
+                    <img
+                      src="/insidehome/Kidsroom/Kids bedroom 2.jpg"
+                      loading="lazy"
+                      alt="Blog Image"
+                      className="blog-listing-image"
+                      height={280}
+                      width={350}
+                    />
+                  </Link>
+                  {/* <Link
+                        to="/blog2"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Living Room</div>
+                      </Link> */}
+                </div>
+                <a
+                  href="post/how-to-choose-the-best-wall-art-decor-house.html"
+                  className="w-inline-block"
+                ></a>
+                <div className="blog-item-meta">
+                  <p className="blog-date"> </p>
+                  {/* <Link
+                                    style={{
+                                      background: " rgb(244, 240, 236)",
+                                    }}
+                                    to="blog2"
+                                    className="blog-single-link w-inline-block"
+                                  >
+                                    <img
+                                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                                      loading="lazy"
+                                      alt="Readmore Arrow"
+                                    />
+                                  </Link> */}
+                </div>
+              </div>
+            </div>
+            <div
+              role="listitem"
+              className="blog-collection-item w-dyn-item w-col w-col-4"
+            >
+              <div
+                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                className="blog-item"
+              >
+                <div className="blog-image-wrap">
+                  <Link
+                    // to="/blog3"
+                    className="blog-image-link w-inline-block"
+                  >
+                    <img
+                      src="/insidehome/Kidsroom/Kids bedroom 3.jpg"
+                      loading="lazy"
+                      alt="Blog Image"
+                      className="blog-listing-image"
+                      height={280}
+                      width={350}
+                    />
+                  </Link>
+                  {/* <Link
+                        to="/blog3"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Master Bedroom</div>
+                      </Link> */}
+                </div>
+                <Link to="blog3" className="w-inline-block">
+                  {/* <h2 className="blog-title">
+                                    Parallel Kitchen
+                                  </h2> */}
+                </Link>
+                <div className="blog-item-meta">
+                  <p className="blog-date"> </p>
+                </div>
+              </div>
+            </div>
+            {/* <div
+                              role="listitem"
+                              className="blog-collection-item w-dyn-item w-col w-col-4"
+                            >
+                              <div
+                                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                                className="blog-item"
+                              >
+                                <div className="blog-image-wrap">
+                                  <Link
+                                    // to="blog4"
+                                    className="blog-image-link w-inline-block"
+                                  >
+                                    <img
+                                      src="/insidehome/kitchen_defrent_type/straight.jpg"
+                                      loading="lazy"
+                                      alt="Blog Image"
+                                      height={280}
+                                      width={350}
+                                      className="blog-listing-image"
+                                    />
+                                  </Link>
+                               
+                                </div>
+                                <Link
+                                  //  to="blog4"
+                                  className="w-inline-block"
+                                >
+                                  <h2 className="blog-title">
+                                    Straight Kitchen
+                                  </h2>
+                                </Link>
+                                <div className="blog-item-meta">
+                                  <p className="blog-date"></p>
+                            
+                                </div>
+                              </div>
+                            </div> */}
+            {/* <div
+                              role="listitem"
+                              className="blog-collection-item w-dyn-item w-col w-col-4"
+                            >
+                              <div
+                                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                                className="blog-item"
+                              >
+                                <div className="blog-image-wrap">
+                                  <Link
+                                    // to="/blog5"
+                                    className="blog-image-link w-inline-block"
+                                  >
+                                    <img
+                                      src="/insidehome/kitchen_defrent_type/Ushape.jpg"
+                                      loading="lazy"
+                                      alt="Blog Image"
+                                      height={280}
+                                      className="blog-listing-image"
+                                    />
+                                  </Link>
+                               
+                                </div>
+                                <Link
+                                  // to="blog5"
+                                  className="w-inline-block"
+                                >
+                                  <h2 className="blog-title">
+                                    U shaped Kitchen
+                                  </h2>
+                                </Link>
+                                <div className="blog-item-meta">
+                                  <p className="blog-date"></p>
+                                
+                                </div>
+                              </div>
+                            </div> */}
           </div>
         </div>
       </div>
@@ -204,4 +374,4 @@ function Blog4() {
   );
 }
 
-export default Blog4
+export default Blog4;

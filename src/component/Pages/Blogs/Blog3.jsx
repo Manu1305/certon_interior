@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 function Blog3() {
   return (
     <div>
@@ -11,11 +11,9 @@ function Blog3() {
           <div className="single-content-wrap">
             <div className="w-layout-grid blog-single-grid">
               <div className="blog-single-content-wrap">
-                <h1 className="blog-single-title">
-                  Master Bedroom
-                </h1>
+                <h1 className="blog-single-title">Master Bedroom</h1>
                 <img
-                  src="../../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bdcbfb8e21011214fd01_blog-image-large-3.jpg"
+                  src="/insidehome/Bedroom/bedroom.1jpg.jpg"
                   loading="lazy"
                   alt="Blog Single Image"
                   className="blog-single-image"
@@ -26,22 +24,17 @@ function Blog3() {
                 </div>
                 <div className="w-richtext">
                   <p>
-                    Discover the epitome of modern functionality and aesthetic
-                    appeal with our exquisite range of modular kitchens. Crafted
-                    with precision, our kitchens seamlessly blend form and
-                    function, offering a perfect balance between style and
-                    practicality. Each element is thoughtfully designed to
-                    optimize space utilization and enhance workflow, ensuring a
-                    clutter-free and efficient culinary experience. Choose from
-                    a diverse palette of finishes and materials to personalize
-                    your dream kitchen, creating a space that reflects your
-                    unique taste and lifestyle. Elevate your home with our
-                    stunning modular kitchen designs, where
-                    innovation meets elegance.
+                    Indulge in tranquility in our master bedroom sanctuaries.
+                    Luxurious furnishings, soft ambient lighting, and elegant
+                    decor create a serene retreat. Muted tones promote
+                    relaxation, while carefully curated accents add a touch of
+                    sophistication. Experience the perfect blend of comfort and
+                    style, where every detail is designed for restful nights and
+                    blissful mornings.
                   </p>
                 </div>
               </div>
-              <div className="blog-single-sidebar">
+              {/* <div className="blog-single-sidebar">
                 <div className="sidebar-widget first-widget">
                   <h2 className="widget-title">Recent Blogs</h2>
                   <div className="w-dyn-list">
@@ -151,8 +144,229 @@ function Blog3() {
                     </div>
                   </div>
                 </div>
+              </div> */}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="blog-wrap home-page-blog ">
+        <div className="w-dyn-list">
+          <div role="list" className="w-dyn-items w-row">
+            <div
+              role="listitem"
+              className="blog-collection-item w-dyn-item w-col w-col-4"
+            >
+              <div
+                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                className="blog-item"
+              >
+                <div className="blog-image-wrap">
+                  <Link
+                    // to="blog1"
+                    className="blog-image-link w-inline-block"
+                  >
+                    <img
+                      src="/insidehome/Bedroom/bedroom.jpg"
+                      loading="lazy"
+                      alt="Blog Image"
+                      className="blog-listing-image"
+                      height={280}
+                      width={350}
+                    />
+                  </Link>
+                  {/* <Link
+                        to="blog1"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Kitchen Design</div>
+                      </Link> */}
+                </div>
+                <Link to="blog1" className="w-inline-block">
+                  {/* <h2 className="blog-title">Island Kitchen</h2> */}
+                </Link>
+                <div className="blog-item-meta">
+                  <p className="blog-date"> </p>
+                  {/* <Link
+                                    style={{
+                                      background: " rgb(244, 240, 236)",
+                                    }}
+                                    to="/blog1"
+                                    className="blog-single-link w-inline-block"
+                                  >
+                                    <img
+                                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                                      loading="lazy"
+                                      alt="Readmore Arrow"
+                                    />
+                                  </Link> */}
+                </div>
               </div>
             </div>
+            <div
+              role="listitem"
+              className="blog-collection-item w-dyn-item w-col w-col-4"
+            >
+              <div
+                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                className="blog-item"
+              >
+                <div className="blog-image-wrap">
+                  <Link
+                    // to="blog2"
+                    className="blog-image-link w-inline-block"
+                  >
+                    <img
+                      src="/insidehome/Bedroom/bedroom.1jpg.jpg"
+                      loading="lazy"
+                      alt="Blog Image"
+                      className="blog-listing-image"
+                      height={280}
+                      width={350}
+                    />
+                  </Link>
+                  {/* <Link
+                        to="/blog2"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Living Room</div>
+                      </Link> */}
+                </div>
+                <a
+                  href="post/how-to-choose-the-best-wall-art-decor-house.html"
+                  className="w-inline-block"
+                ></a>
+                <div className="blog-item-meta">
+                  <p className="blog-date"> </p>
+                  {/* <Link
+                                    style={{
+                                      background: " rgb(244, 240, 236)",
+                                    }}
+                                    to="blog2"
+                                    className="blog-single-link w-inline-block"
+                                  >
+                                    <img
+                                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                                      loading="lazy"
+                                      alt="Readmore Arrow"
+                                    />
+                                  </Link> */}
+                </div>
+              </div>
+            </div>
+            <div
+              role="listitem"
+              className="blog-collection-item w-dyn-item w-col w-col-4"
+            >
+              <div
+                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                className="blog-item"
+              >
+                <div className="blog-image-wrap">
+                  <Link
+                    // to="/blog3"
+                    className="blog-image-link w-inline-block"
+                  >
+                    <img
+                      src="/insidehome/Bedroom/bedroom2.jpg"
+                      loading="lazy"
+                      alt="Blog Image"
+                      className="blog-listing-image"
+                      height={280}
+                      width={350}
+                    />
+                  </Link>
+                  {/* <Link
+                        to="/blog3"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Master Bedroom</div>
+                      </Link> */}
+                </div>
+                <Link to="blog3" className="w-inline-block">
+                  {/* <h2 className="blog-title">
+                                    Parallel Kitchen
+                                  </h2> */}
+                </Link>
+                <div className="blog-item-meta">
+                  <p className="blog-date"> </p>
+                </div>
+              </div>
+            </div>
+            {/* <div
+                              role="listitem"
+                              className="blog-collection-item w-dyn-item w-col w-col-4"
+                            >
+                              <div
+                                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                                className="blog-item"
+                              >
+                                <div className="blog-image-wrap">
+                                  <Link
+                                    // to="blog4"
+                                    className="blog-image-link w-inline-block"
+                                  >
+                                    <img
+                                      src="/insidehome/kitchen_defrent_type/straight.jpg"
+                                      loading="lazy"
+                                      alt="Blog Image"
+                                      height={280}
+                                      width={350}
+                                      className="blog-listing-image"
+                                    />
+                                  </Link>
+                               
+                                </div>
+                                <Link
+                                  //  to="blog4"
+                                  className="w-inline-block"
+                                >
+                                  <h2 className="blog-title">
+                                    Straight Kitchen
+                                  </h2>
+                                </Link>
+                                <div className="blog-item-meta">
+                                  <p className="blog-date"></p>
+                            
+                                </div>
+                              </div>
+                            </div> */}
+            {/* <div
+                              role="listitem"
+                              className="blog-collection-item w-dyn-item w-col w-col-4"
+                            >
+                              <div
+                                data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                                className="blog-item"
+                              >
+                                <div className="blog-image-wrap">
+                                  <Link
+                                    // to="/blog5"
+                                    className="blog-image-link w-inline-block"
+                                  >
+                                    <img
+                                      src="/insidehome/kitchen_defrent_type/Ushape.jpg"
+                                      loading="lazy"
+                                      alt="Blog Image"
+                                      height={280}
+                                      className="blog-listing-image"
+                                    />
+                                  </Link>
+                               
+                                </div>
+                                <Link
+                                  // to="blog5"
+                                  className="w-inline-block"
+                                >
+                                  <h2 className="blog-title">
+                                    U shaped Kitchen
+                                  </h2>
+                                </Link>
+                                <div className="blog-item-meta">
+                                  <p className="blog-date"></p>
+                                
+                                </div>
+                              </div>
+                            </div> */}
           </div>
         </div>
       </div>

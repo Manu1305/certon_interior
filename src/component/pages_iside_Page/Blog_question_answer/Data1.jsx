@@ -1,9 +1,9 @@
-const data = [
+const data1 = [
   {
     question:
-      "What is the estimated timeline for completing a typical interior design project?",
+      "What areas or locations do you provide interior design services in?",
     answer:
-      "Project timelines vary based on size and complexity however it takes maximum 45 working days with 2 weeks of grace period.",
+      "We offer comprehensive interior design services across various locations, creating personalized spaces for clients in residences. Contact us to transform your space wherever you are.",
   },
   {
     question:
@@ -29,4 +29,4 @@ const data = [
   },
 ];
 
-export default data;
+export default data1;

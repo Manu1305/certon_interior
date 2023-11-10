@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <div className="header-section" style={{height:'85px'}}>
+      <div className="header-section" style={{height:'100px'}}>
         <div className="top-bar-header-area">
           <div
             data-collapse="medium"
@@ -25,7 +25,8 @@ function Navbar() {
                   src="/logoInterior.png"
                   loading="lazy"
                   alt="Doctorate Logo"
-                  height="50px"
+                  height="70px"
+                  style={{marginTop:'-10px'}}                  
                 />
               </Link>
               <nav role="navigation" className="nav-menu w-nav-menu">

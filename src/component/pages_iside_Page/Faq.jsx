@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Accordion from "./Blog_question_answer/Accordation";
+import Accordion1 from "./Blog_question_answer/Accordation1";
 function Faq() {
   const iconStyle = {
     WebkitTransform:
@@ -71,7 +72,7 @@ function Faq() {
                   <div className="faq-accordion-content">
                     <h2 className="section-title">Project Related Questions</h2>
 
-                    <Accordion />
+                    <Accordion1 />
                   </div>
                 </div>
                 <img
