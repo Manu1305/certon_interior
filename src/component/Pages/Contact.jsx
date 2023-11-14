@@ -9,9 +9,9 @@ function Contact() {
           <div className="banner-content-wrap">
             <h1 className="banner-title">Contact Us</h1>
             <div className="breadcrumb-wrap">
-              <a href="index.html" className="breadcrumb-link">
+              <Link to="/" className="breadcrumb-link">
                 Home
-              </a>
+              </Link>
               <div className="breadcrumb-separator">/</div>
               <div>Contact Us</div>
             </div>

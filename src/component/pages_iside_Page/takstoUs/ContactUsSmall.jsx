@@ -13,10 +13,10 @@ function ContactUsSmall() {
           <input type="text" placeholder="Name.." className={styles.name} />
         </div>
         <div>
-          <input type="text" placeholder="email.." className={styles.email} />
+          <input type="email" placeholder="email.." className={styles.email} />
         </div>
         <div>
-          <input type="text" placeholder="Phone..." className={styles.email} />
+          <input type="phone" placeholder="Phone..." className={styles.email} />
         </div>
         <div>
           <input
