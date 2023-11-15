@@ -511,9 +511,9 @@ function Home() {
               Recent Projects
             </h2>
             <p className="section-title-content">
-              With tools to make every part of your process more human and a
+              {/* With tools to make every part of your process more human and a
               support team <br />
-              excited to help you, getting started with us never been easier.
+              excited to help you, getting started with us never been easier. */}
             </p>
           </div>
           <div className="project-items home-page-projects">
